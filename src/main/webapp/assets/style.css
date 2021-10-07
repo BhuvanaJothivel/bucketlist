@@ -1,0 +1,45 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+body{
+	background-image: url('background.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display:flex;
+	flex-direction:column;
+	font-family: 'Manrope', sans-serif;
+}
+
+h1{
+	margin-top: 11%;
+	margin-left: 15%;
+	font-size: 45px;
+	color: #F49867;
+}
+
+h2{
+	margin-left: 22%;
+	width: 35vw;
+	font-size: 33px;
+	color: #AE67FA;
+}
+
+#buttons{
+	width: 40vw;
+	display:flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-left: 19%;
+	margin-top: 3%;
+}
+
+button{
+	width: 10vw;
+	height: 6vh;
+	background: none;
+	color: white;
+	font-size: 22px;
+	border: 2px solid black;
+	cursor: pointer;
+	border-radius: 15%
+}

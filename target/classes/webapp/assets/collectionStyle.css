@@ -1,0 +1,70 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+body{
+	background-image: url('background.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display:flex;
+	flex-direction:row;
+	font-family: 'Manrope', sans-serif;
+	color: white;
+}
+
+.container{
+	width: 30vw;
+	height: auto;
+	margin-left: 40%;
+	margin-top:25%;
+	display: flex;
+	flex-direction: column;
+}
+
+.bucketList{
+	width: 30vw;
+	height: auto;
+	margin-left: 30%;
+	margin-top: 8%;
+	display: flex;
+	flex-direction: column;
+}
+
+.bucketList>h1{
+	margin-left: 25%;
+}
+
+th{
+	font-size: 20px;
+	color: #71E5FF;
+}
+
+td{
+	margin-top: 25%;
+	text-align:center;
+}
+
+h2{
+	color: #71E5FF;
+}
+
+input[type=text]{
+	height:4vh;
+	border-radius:10%;
+}
+
+.inputs{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+button{
+	height: 9vh;
+	font-size:20px;
+	background: #FF4820;
+	border-radius: 10%
+}
+
+#add{
+	background-color: #AE67FA;
+}
